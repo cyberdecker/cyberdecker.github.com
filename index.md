@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Hello World!
+title: Start
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-In construction :)
+Posts about computer vision, C++ and other stuff in general.
+
