@@ -11,3 +11,9 @@ I will use this place as a way to store some tutorials so I don't lose them. May
 
 I'm also interested in computer vision, C++ development, quantum computing and science in general. 
 
+## List of posts
+
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+
